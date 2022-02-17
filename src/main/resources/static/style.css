@@ -1,0 +1,39 @@
+.post-box{
+    display : inline;
+    width : 30vw;
+    margin : 50px;
+    float: left;
+    border : 1px solid black;
+}
+.search-input-box{
+    margin: 100px;
+    border : 1px solid black;
+}
+.search-result-box{
+    margin: 100px;
+    border : 1px solid black;
+}
+.register, .modify, .comment-box{
+    width : 40vw;
+    border : 1px solid black;
+    display : block;
+    margin : 50px;
+    padding : 20px;
+    float:right;
+}
+.contents{
+    display:block;
+    margin: 10px;
+    width : 30vw;
+    height : 20vh;
+
+}
+.title, .writer{
+    display:block;
+    margin: 10px;
+    width : 30vw;
+
+}
+.one-post{
+    border: 1px solid black;
+}

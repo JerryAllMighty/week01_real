@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="basic.js"></script>
+    <title>나만의 항해 블로그라능</title>
+</head>
+<body>
+<div class="content">
+    <div class="post-box">
+        <!--    조회-->
+
+        <div class="search-input-box"><input id="search-input" class="search-input">
+            <button onclick="searchPost()">조회</button></input></div>
+
+        <div class="search-result-box">
+            <div class="one-post">
+                <div class="one-post-content">
+                    <div>제목</div>
+                    <div>내용</div>
+                    <div>작성자</div>
+                </div>
+                <button onclick="modifyPost()">수정</button>
+                <button onclick="deletePost()">삭제</button>
+                <button onclick="getComments()">댓글 보기</button>
+            </div>
+        </div>
+    </div>
+    <div class="register">
+        <input class="title" placeholder="제목"></input>
+        <input class="contents" placeholder="작성 내용"></input>
+        <input class="writer" placeholder="글쓴이"></input>
+        <button id="register-post" onclick="createPost()">게시글 등록</button>
+    </div>
+    <div class="modify"></div>
+    <div class="comment-box"></div>
+
+
+</div>
+</body>
